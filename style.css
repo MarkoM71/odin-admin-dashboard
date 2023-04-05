@@ -74,6 +74,7 @@
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     height: 150px;
+    margin-bottom: 30px;
     /*grid-auto-flow: column;*/
 }
 
@@ -83,7 +84,6 @@
     height: 75px;
     align-items: center;
     padding-left: 35px;
-    
 }
 
 .top-header img {
@@ -108,20 +108,51 @@
     font-size: 20px;
 }
 
-
 .bottom-header {
     display: grid;
     grid-auto-flow: column;
+    align-items: center;
+    padding-left: 35px;
+    
+}
+
+.bottom-header img {
+    height: 75px;
+    width: 75px;
+    margin-bottom: 25px;
 }
 
 .hi-there {
-    /*grid-column: 1 / 2;
-    grid-row: 2 / 3;*/
+    display: grid;
+    align-items: center;
+    justify-items: start;
+    margin-right: 290px;
+    gap: 5px;
+    margin-bottom: 21px;
+}
+
+.hi {
+    font-size: 20px;
+}
+
+.morgan-oakley {
+    font-size: 30px;
 }
 
 .buttons-section {
-    /*grid-column: 2 / 3;
-    grid-row: 2 / 3;*/
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+
+.buttons-section button {
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(16, 81, 134);
 }
 
 .main-content {

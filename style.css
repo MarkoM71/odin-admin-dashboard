@@ -172,12 +172,7 @@
     margin-right: 20px;
 }
 
-.trend {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    background-color: white;
-    margin: 10px;
-}
+
 
 .card-grid {
     display: grid;
@@ -224,6 +219,8 @@
     /*margin-left: 200px;*/
 }
 
+/*Announce-section*/
+
 .announce {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -269,3 +266,19 @@
     border-bottom: white;
 }
 
+/*Trend Section*/
+
+.trend {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin: 10px;
+}
+
+.trending-card {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.trend-head {
+    font-size: 25px;
+}

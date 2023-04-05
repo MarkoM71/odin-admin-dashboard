@@ -146,7 +146,6 @@
     margin-right: 20px;
 }
 
-
 .buttons-section button {
     width: 100px;
     height: 40px;
@@ -171,17 +170,6 @@
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.announce {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    
-}
-
-.announce-card {
-    background-color: white;
-    
 }
 
 .trend {
@@ -233,7 +221,51 @@
     /*display: grid;
     grid-auto-flow: column;
     justify-items: end;*/
-    
     /*margin-left: 200px;*/
+}
+
+.announce {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
     
 }
+
+.announce-head {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.announce-stack {
+    background-color: white;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+    padding: 10px;
+    border-radius: 10px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.announce-card {
+    background-color: white;
+    /*border-bottom: 1px solid grey;*/
+}
+
+.announce-title {
+    font-size: 20px;
+}
+
+.announce > .announce-stack > div {
+    border-bottom: 1px solid rgb(214, 210, 210);
+    padding: 15px;
+}
+
+#unique {
+    border-bottom: white;
+}
+

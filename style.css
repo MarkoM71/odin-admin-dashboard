@@ -3,11 +3,13 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    /*grid-template-rows: 1fr 1fr;*/
 }
+
+/*Side-bar Section*/
 
 .side-bar {
     display: grid;
@@ -47,6 +49,7 @@ body {
     height: 200px;
     padding-bottom: 0px;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .list-one img, .list-two img {
@@ -69,19 +72,16 @@ body {
     list-style-type: none;
     gap: 15px;
     height: 100px;
-    padding-bottom: 120px;
-    
+    padding-bottom: 420px;
 }
 
+/*Header Section*/
+
 .header {
-    /*display: grid;*/
-    /*grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;*/
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     height: 150px;
     margin-bottom: 30px;
-    /*grid-auto-flow: column;*/
 }
 
 .top-header {
@@ -120,7 +120,6 @@ body {
     grid-auto-flow: column;
     align-items: center;
     padding-left: 35px;
-    
 }
 
 .bottom-header img {
@@ -162,15 +161,17 @@ body {
     background-color: rgb(16, 81, 134);
 }
 
+/*Projects-Announcements-Trending*/
+
 .main-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /*grid-template-rows: 1fr 1fr;*/
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: rgb(227, 224, 224);
-    
 }
+
+/*Projects Section*/
 
 .article {
     grid-column: 1 / 2;
@@ -179,8 +180,6 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
-
-
 
 .card-grid {
     display: grid;
@@ -193,7 +192,7 @@ body {
     background-color: white;
     margin: 10px;
     border-radius: 10px;
-    height: 258px;
+    height: 262px;
     padding-left: 20px;
     padding-right: 20px;
     border-left: 10px solid lightblue;
@@ -217,16 +216,11 @@ body {
 }
 
 .card-items {
-    /*align-self: flex-end;*/
     margin-top: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 1.5rem;
-    /*display: grid;
-    grid-auto-flow: column;
-    justify-items: end;*/
-    /*margin-left: 200px;*/
 }
 
 /*Announce-section*/
@@ -248,20 +242,16 @@ body {
 
 .announce-stack {
     background-color: white;
-    /*padding-left: 20px;
-    padding-right: 20px;*/
     padding: 10px;
     border-radius: 10px;
     width: 325px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    
+    gap: 15px; 
 }
 
 .announce-card {
     background-color: white;
-    /*border-bottom: 1px solid grey;*/
 }
 
 .announce-title {
@@ -283,8 +273,7 @@ body {
 .trend {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    margin: 10px;
-    
+    margin: 10px;  
 }
 
 .trending-card {
@@ -313,4 +302,10 @@ body {
 .small-card img {
     height: 35px;
     width: 35px;
+}
+
+/*Paragraph colors*/
+
+.grey {
+    color: grey;
 }

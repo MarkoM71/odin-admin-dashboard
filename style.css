@@ -1,4 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+body {
+    font-family: "Roboto", sans-serif;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -106,6 +110,7 @@
 
 .morgan {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .bottom-header {
@@ -129,6 +134,7 @@
     margin-right: 290px;
     gap: 5px;
     margin-bottom: 21px;
+    font-weight: bold;
 }
 
 .hi {
@@ -185,7 +191,7 @@
     background-color: white;
     margin: 10px;
     border-radius: 10px;
-    height: 250px;
+    height: 258px;
     padding-left: 20px;
     padding-right: 20px;
     border-left: 10px solid lightblue;
@@ -195,10 +201,12 @@
 .projects {
     margin-left: 13px;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .title {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .card-items img {
@@ -233,6 +241,7 @@
 .announce-head {
     font-size: 25px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .announce-stack {
@@ -255,6 +264,7 @@
 
 .announce-title {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .announce > .announce-stack > div {
@@ -272,13 +282,33 @@
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     margin: 10px;
+    
 }
 
 .trending-card {
     background-color: white;
     border-radius: 10px;
+    height: 225px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .trend-head {
     font-size: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.small-card {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.small-card img {
+    height: 35px;
+    width: 35px;
 }

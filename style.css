@@ -17,6 +17,7 @@ body {
     color: white;
     align-items: center;
     font-size: 36px;
+    font-weight: bold;
 }
 
 .dashboard {
@@ -26,6 +27,7 @@ body {
     place-items: center;  
     place-content: start; 
     column-gap: 10px;
+    font-weight: bold;
 }
 
 .dashboard img {
@@ -195,7 +197,6 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     border-left: 10px solid lightblue;
-    
 }
 
 .projects {
@@ -207,6 +208,7 @@ body {
 .title {
     font-size: 20px;
     font-weight: bold;
+    color: black;
 }
 
 .card-items img {
